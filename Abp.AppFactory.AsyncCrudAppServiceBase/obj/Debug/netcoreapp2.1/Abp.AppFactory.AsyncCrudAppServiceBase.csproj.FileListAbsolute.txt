@@ -1,0 +1,6 @@
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\bin\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.deps.json
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\bin\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.dll
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\obj\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.csprojAssemblyReference.cache
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\obj\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.csproj.CoreCompileInputs.cache
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\obj\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.AssemblyInfoInputs.cache
+C:\Source\Repos\Abp.AppFactory.AsyncCrudAppServiceBase\Abp.AppFactory.AsyncCrudAppServiceBase\obj\Debug\netcoreapp2.1\Abp.AppFactory.AsyncCrudAppServiceBase.AssemblyInfo.cs
