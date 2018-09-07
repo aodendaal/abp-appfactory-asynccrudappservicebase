@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Andre Odendaal</Authors>
+    <Company>AppFactory</Company>
+    <Description>AppService Base for using Sync AppFactory Applications</Description>
+    <PackageProjectUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
