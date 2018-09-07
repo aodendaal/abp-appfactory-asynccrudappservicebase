@@ -5,7 +5,7 @@ using Abp.Domain.Entities;
 using Abp.Domain.Repositories;
 using System.Threading.Tasks;
 
-namespace CoreSignalRTest
+namespace Abp.AppFactory
 {
     public class AsyncCrudAppServiceBase<TEntity, TEntityDto> : AsyncCrudAppServiceBase<TEntity, TEntityDto, int>
         where TEntity : Entity
