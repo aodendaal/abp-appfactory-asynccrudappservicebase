@@ -8,6 +8,10 @@
     <PackageProjectUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase</PackageProjectUrl>
     <RepositoryUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/aodendaal/abp-appfactory-asynccrudappservicebase/blob/master/LICENSE</PackageLicenseUrl>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Change Namespace to Abp.AppFactory</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

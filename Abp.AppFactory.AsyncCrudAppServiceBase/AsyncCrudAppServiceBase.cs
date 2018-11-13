@@ -70,30 +70,33 @@ namespace Abp.AppFactory
             this.syncHub = syncHub;
         }
 
-        protected Task Sync()
+        /// <summary>
+        /// When Sync() is called the UoW state will be saved and SignalR will transmit a key containing the type of <c>TEntityDto</c> the front end should refresh.
+        /// </summary>
+        protected void Sync()
         {
             CurrentUnitOfWork.SaveChanges();
-            return syncHub.Sync(typeof(TEntityDto));
+            syncHub.Sync(typeof(TEntityDto)).Wait();
         }
 
         public override async Task<TEntityDto> Create(TCreateInput input)
         {
             var output = await base.Create(input);
-            await Sync();
+            Sync();
             return output;
         }
 
         public override async Task<TEntityDto> Update(TUpdateInput input)
         {
             var output = await base.Update(input);
-            await Sync();
+            Sync();
             return output;
         }
 
         public override async Task Delete(TDeleteInput input)
         {
             await base.Delete(input);
-            await Sync();
+            Sync();
         }
     }
 }
